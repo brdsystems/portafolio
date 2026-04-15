@@ -157,7 +157,7 @@ document.querySelectorAll('.project-card, .about-card, .system-card, .contact-it
 
 // ===== Contact Form =====
 document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
+
     const btn = this.querySelector('button');
     btn.innerHTML = '<i class="fas fa-check"></i> ¡Mensaje Enviado!';
     btn.style.background = 'var(--accent)';
