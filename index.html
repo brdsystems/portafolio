@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRD Systems - Desarrollo Web & Sistemas</title>
+    <meta name="description" content="BRD Systems - Empresa de desarrollo web y sistemas. Portafolio de trabajos y servicios tecnológicos.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="img/logoblanco.png" alt="BRD Systems Logo">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#sitios-web" class="nav-link">Sitios Web</a></li>
+                <li><a href="#sistemas" class="nav-link">Sistemas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content"><img src="img/logoblanco.png" alt="BRD Systems Logo" style="
+    width: 31%;
+">
+            <div class="hero-glitch" data-text="BRD SYSTEMS">Soluciones Tecnológicas</div>
+            <div class="hero-tagline">
+                <span class="typed-text"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description">Desarrollamos software a medida para impulsar su negocio</p>
+            <div class="hero-buttons">
+                <a href="#sitios-web" class="btn btn-primary"><i class="fas fa-rocket"></i> Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline"><i class="fas fa-envelope"></i> Contáctanos</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Proyectos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="100">0</span><span class="stat-plus">%</span>
+                    <span class="stat-label">Compromiso</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="24">0</span><span class="stat-plus">/7</span>
+                    <span class="stat-label">Soporte</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-decorator">&lt;</span> Quiénes Somos <span class="title-decorator">/&gt;</span></h2>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-icon"><i class="fas fa-code"></i></div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creamos sitios web modernos, responsivos y optimizados para SEO que impulsan tu presencia digital.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon"><i class="fas fa-server"></i></div>
+                    <h3>Sistemas a Medida</h3>
+                    <p>Desarrollamos sistemas de gestión personalizados que automatizan y optimizan los procesos de tu negocio.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Seguridad</h3>
+                    <p>Implementamos las mejores prácticas de seguridad para proteger tu información y la de tus clientes.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Brindamos soporte técnico continuo para mantener tus plataformas funcionando sin interrupciones.</p>
+                </div>
+            </div>
+            <div class="about-text glass-card">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">about_us.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">$</span> <span class="terminal-cmd">cat empresa.txt</span></p>
+                    <p class="terminal-output">En <strong>BRD Systems</strong> somos un equipo apasionado por la tecnología y el desarrollo de soluciones digitales. Nos especializamos en crear sitios web profesionales y sistemas de gestión que transforman la manera en que las empresas operan.</p>
+                    <p class="terminal-output">Nuestra misión es entregar productos de calidad, con código limpio, interfaces intuitivas y arquitectura escalable. Trabajamos con las tecnologías más actuales del mercado para garantizar rendimiento y seguridad.</p>
+                    <p><span class="terminal-prompt">$</span> <span class="cursor-blink">_</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sitios Web -->
+    <section id="sitios-web" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title"><span class="title-decorator">&lt;</span> Sitios Web <span class="title-decorator">/&gt;</span></h2>
+            <p class="section-subtitle">Diseños modernos y funcionales para cada tipo de negocio</p>
+            <div class="projects-grid">
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/banquete.png" alt="Banquete">
+                        <div class="project-overlay">
+                            <a href="https://banquete.cl/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Banquete</h3>
+                        <p>Sitio web dedicado en ofrecer los servicios y productos en linea.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span>
+                        </div>
+                        <a href="https://banquete.cl/" target="_blank" class="project-url"><i class="fas fa-globe"></i> banquete.cl</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/spapaula.png" alt="SPA Paula Irrazábal">
+                        <div class="project-overlay">
+                            <a href="https://spapaulairrazabal.cl" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>SPA Paula Irrazábal</h3>
+                        <p>Sitio web para centro de spa y bienestar con sistema de compra Online.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span><span>WebPay - Transbank</span>
+                        </div>
+                        <a href="https://spapaulairrazabal.cl" target="_blank" class="project-url"><i class="fas fa-globe"></i> spapaulairrazabal.cl</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/piatravel.png" alt="Pia Travel">
+                        <div class="project-overlay">
+                            <a href="http://pia-travels.com/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Pia Travel</h3>
+                        <p>Sitio web para agencia de viajes para contización en linea.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span>
+                        </div>
+                        <a href="http://pia-travels.com/" target="_blank" class="project-url"><i class="fas fa-globe"></i> pia-travel.cl</a>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/adhemak.png" alt="Adhemak">
+                        <div class="project-overlay">
+                            <a href="https://adhemak.cl/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Adhemak</h3>
+                        <p>Sitio web dedicado en ofrecer los servicios de soluciones gráficas.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span>
+                        </div>
+                        <a href="http://adhemak.cl" target="_blank" class="project-url"><i class="fas fa-globe"></i> adhemak.cl</a>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/artmoment.png" alt="Pia Travel">
+                        <div class="project-overlay">
+                            <a href="https://artmomentstore.com/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>ArtMoment</h3>
+                        <p>Art.Moment es una marca de joyería de origen chileno.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span><span>GetNet - Sandander</span>
+                        </div>
+                        <a href="https://artmomentstore.com/" target="_blank" class="project-url"><i class="fas fa-globe"></i> pia-travel.cl</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/viveroamanda.png" alt="Pia Travel">
+                        <div class="project-overlay">
+                            <a href="https://viveroamandabuin.cl/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vivero Amanda</h3>
+                        <p>Sitio web para ofrece variados servicios enfocados en las necesidades de su jardín.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span>
+                        </div>
+                        <a href="https://viveroamandabuin.cl/" target="_blank" class="project-url"><i class="fas fa-globe"></i> pia-travel.cl</a>
+                    </div>
+                </div>
+
+        <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/rodey.png" alt="Pia Travel">
+                        <div class="project-overlay">
+                            <a href="https://rodey.cl/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-badge">Activo</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Rodey</h3>
+                        <p>Sitio web Proveedor de productos industriales y Energía Renovable.</p>
+                        <div class="project-tech">
+                            <span>Woocommerce</span><span>Wordpress</span>
+                        </div>
+                        <a href="https://rodey.cl/" target="_blank" class="project-url"><i class="fas fa-globe"></i> rodey.cl </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Sistemas -->
+    <section id="sistemas" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-decorator">&lt;</span> Sistemas <span class="title-decorator">/&gt;</span></h2>
+            <p class="section-subtitle">Soluciones de gestión potentes y escalables</p>
+            <div class="systems-grid">
+                <div class="system-card glass-card">
+                    <div class="system-icon-wrap">
+                        <div class="system-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="system-pulse"></div>
+                    </div>
+                    <h3>Sistema de Gestión Documental</h3>
+                    <p>Plataforma completa para la administración, distribución y control de documentos empresariales con seguimiento de lectura y auditoría.</p>
+                    <ul class="system-features">
+                        <li><i class="fas fa-check-circle"></i> Gestión de usuarios y roles</li>
+                        <li><i class="fas fa-check-circle"></i> Subida y distribución de documentos</li>
+                        <li><i class="fas fa-check-circle"></i> Control de lectura y seguimiento</li>
+                        <li><i class="fas fa-check-circle"></i> Panel de administración</li>
+                        <li><i class="fas fa-check-circle"></i> Auditoría de acciones</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>PHP</span><span>MySQL</span><span>AdminLTE</span><span>Bootstrap</span>
+                    </div>
+                    <span class="system-status active"><i class="fas fa-circle"></i> Implementado</span>
+                </div>
+
+                <div class="system-card glass-card">
+                    <div class="system-icon-wrap">
+                        <div class="system-icon"><i class="fas fa-calendar-check"></i></div>
+                        <div class="system-pulse"></div>
+                    </div>
+                    <h3>Sistema de Reservas SPA</h3>
+                    <p>Sistema integral de agendamiento y gestión de reservas con calendario interactivo, gestión de servicios y generación de fichas de clientes.</p>
+                    <ul class="system-features">
+                        <li><i class="fas fa-check-circle"></i> Calendario interactivo FullCalendar</li>
+                        <li><i class="fas fa-check-circle"></i> Gestión de servicios y productos</li>
+                        <li><i class="fas fa-check-circle"></i> Ficha de cliente automática</li>
+                        <li><i class="fas fa-check-circle"></i> Control de estados de reservas</li>
+                        <li><i class="fas fa-check-circle"></i> Multi-roles (Admin, Masajista, Recepción)</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>PHP</span><span>MySQL</span><span>FullCalendar</span><span>PDO</span>
+                    </div>
+                    <span class="system-status active"><i class="fas fa-circle"></i> Implementado</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title"><span class="title-decorator">&lt;</span> Contacto <span class="title-decorator">/&gt;</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:contacto@brdsystems.cl">brdsystems.web@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/56912345678" target="_blank">+56 9 32658903</a>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <span>Chile</span>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu mensaje..." rows="5" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="img/logo.png" alt="BRD Systems" class="footer-logo">
+                <p>&copy; 2025 BRD Systems - Desarrollo Web & Sistemas. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
